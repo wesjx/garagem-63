@@ -1,0 +1,35 @@
+.banner {
+  background: url(../images/banner.PNG) no-repeat center center;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner-container {
+  padding: 0 5rem 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-container > p {
+  color: var(--white);
+  font-size: 1.5rem;
+  padding: 1rem 0 4rem;
+}
+
+.banner-title-1 {
+  color: var(--white);
+}
+
+.banner-title {
+  color: var(--color-primary);
+}
+
+@media (max-width: 999px) {
+  .banner-container {
+    padding: 3rem;
+  }
+}

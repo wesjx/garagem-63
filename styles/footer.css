@@ -1,0 +1,44 @@
+footer {
+  height: auto;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--white);
+}
+.phone {
+  margin: 1rem 0 0 1rem;
+  font-size: 2rem;
+}
+
+.footer > h2 {
+  padding-bottom: 1rem;
+}
+
+.footer > address {
+  padding: 1rem 0 3rem 1rem;
+  font-size: 1.5rem;
+}
+
+.media-social {
+  display: flex;
+  border-top: var(--black) 2px solid;
+  margin: 0 3rem 0;
+  width: 93%;
+  list-style: none;
+  padding-top: 2rem;
+}
+
+.img-media-social {
+  width: 4rem;
+}
+
+.media-social > li {
+  margin: 0 2rem 1rem 0;
+}
+
+@media screen and (max-width: 720px) {
+  .media-social {
+    width: 73%;
+  }
+}
